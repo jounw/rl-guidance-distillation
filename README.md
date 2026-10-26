@@ -2,7 +2,8 @@
 
 NeurIPS 2026 Workshop on Interpretability for Discovery
 
-[[Paper]](https://openreview.net/forum?id=XTuN0nml2m)
+paper: [[Openreview]](https://openreview.net/forum?id=XTuN0nml2m)
+[[NeurIPS]](https://neurips.cc/virtual/2026/loc/atlanta/164233)
 
 We train five SAC policies on planar low-thrust orbit raising, distill each into closed-form steering laws with PySR, and compare the result against Q-law.
 
