@@ -15,7 +15,7 @@ for i in range(env.max_steps):
     a = 0.0 if p < env.target_p else 1.
     obs, r, term, trunc, _ = env.step(np.array([a], dtype=np.float32))
     if term:
-        print(f"reached target in {i+1} steps")
+        print(f"reached target in {i+1} steps!")
         break
     if trunc:
         p, f, g, L = env.state
